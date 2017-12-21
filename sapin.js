@@ -19,7 +19,7 @@ var sapin = function (_, Kotlin) {
     var input = Kotlin.isType(tmp$ = document.createElement('input'), HTMLInputElement) ? tmp$ : throwCCE();
     input.type = 'range';
     input.min = '2';
-    input.max = '50';
+    input.max = '30';
     input.value = '10';
     input.addEventListener('input', main$lambda(input));
     var height = document.createElement('h1');

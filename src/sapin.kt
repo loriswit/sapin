@@ -6,7 +6,7 @@ fun main(args: Array<String>)
     val input = document.createElement("input") as HTMLInputElement
     input.type = "range"
     input.min = "2"
-    input.max = "50"
+    input.max = "30"
     input.value = "10"
     input.addEventListener("input", { draw(input.value.toInt()) })
     
